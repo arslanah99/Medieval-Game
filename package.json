@@ -1,0 +1,24 @@
+{
+  "name": "modern-runescape",
+  "version": "1.0.0",
+  "description": "A modern, hyperrealistic RuneScape game",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@types/three": "^0.161.2",
+    "cannon-es": "^0.20.0",
+    "gsap": "^3.12.5",
+    "pixi.js": "^7.4.0",
+    "three": "^0.161.0",
+    "zustand": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.3"
+  }
+}
